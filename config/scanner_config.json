@@ -1,0 +1,20 @@
+{
+    "preprocessing": {
+        "gaussian_blur_kernel": [
+            5,
+            5
+        ],
+        "canny_thresh_1": 75,
+        "canny_thresh_2": 200
+    },
+    "edge_detection": {
+        "gaussian_kernel": 5,
+        "morph_kernel": 5,
+        "min_area_ratio": 0.01,
+        "canny_sigma": 0.33
+    },
+    "preprocessing": {
+        "contrast_clip_limit": 3.0,
+        "tile_grid_size": [8, 8]
+    }
+}
